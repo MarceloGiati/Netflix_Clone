@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root {
     --vermelho:#E50914;
     --preta:#141414;
@@ -12,7 +10,6 @@
     outline: none;
     box-sizing: border-box;
     font-size: 100%;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -89,15 +86,6 @@ header .foto-perfil {
     padding: 5px;
 } 
 
-/* header .more {
-    margin-left: -30px;
-    text-decoration:none;
-    display: flex;
-    color: white;
-    flex-direction: row;
-    cursor: pointer;
-} */
-
 .contactMe {
     position: relative;
     right: 10px;
@@ -162,6 +150,30 @@ header .foto-perfil {
     margin-bottom: 210%;
     margin-left: 50%;
     position: absolute;
+}
+
+.filme-principal .btn1 button,
+.filme-principal .btn2 button {
+    background: #de0611;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    opacity: .4;
+}
+
+.filme-principal .btn1 button:nth-child(1),
+.filme-principal .btn2 button:nth-child(1) {
+    background: #fff;
+}
+
+.filme-principal .btn1 button:hover,
+.filme-principal .btn2 button:hover {
+    background: #de0611;
+    color: #fff;
+    opacity: 1;
 }
 
 .filme-principal .titulo {
