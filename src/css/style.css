@@ -47,7 +47,6 @@ header nav a {
 
 header nav a:hover {
     color: #aaa;
-
 }
 
 header .search {
@@ -148,16 +147,17 @@ header .foto-perfil {
     width: 50%;
     height: 50px;
     margin-bottom: 210%;
-    margin-left: 50%;
+    margin-left: 40%;
+    padding: 0 7px;
     position: absolute;
 }
 
 .filme-principal .btn1 button,
 .filme-principal .btn2 button {
-    background: #de0611;
+    background: var(--vermelho);
     border-radius: 5px;
-    padding: 7px 30px;
-    color: #000;
+    padding: 15px 40px;
+    color: var(--preta);
     border: none;
     font-size: 16px;
     text-align: center;
@@ -171,7 +171,7 @@ header .foto-perfil {
 
 .filme-principal .btn1 button:hover,
 .filme-principal .btn2 button:hover {
-    background: #de0611;
+    background: var(--vermelho);
     color: #fff;
     opacity: 1;
 }
